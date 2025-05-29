@@ -34,7 +34,7 @@ const KanbanBoard: React.FC = () => {
     progress: 65
   }
 
-  const [columns, setColumns] = useState<Column[]>([
+  const columns: Column[] = [
     {
       id: 'planning',
       title: '기획',
@@ -136,7 +136,7 @@ const KanbanBoard: React.FC = () => {
         }
       ]
     }
-  ])
+  ]
 
   const handleTaskClick = (task: Task) => {
     setSelectedTask(task)

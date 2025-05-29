@@ -1,10 +1,10 @@
 import React from 'react'
-import Header from './components/Header'
-import Sidebar from './components/Sidebar'
-import KanbanBoard from './components/KanbanBoard'
-import './App.css'
+import Header from "./components/Header"
+import Sidebar from "./components/Sidebar"
+import KanbanBoard from "./components/KanbanBoard"
+import "./App.css"
 
-function App() {
+const App: React.FC = () => {
   return (
     <div className="app">
       <Header />
